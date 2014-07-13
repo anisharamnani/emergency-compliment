@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nixie One', cursive;
+}
+
+
+.emergency_compliment { 
+  font-size: 25pt;
+  margin: 50px;
+}
+
+.message {
+  font-size: 50pt;
+  margin: 50px;
+  padding-top: 50px;
+}
+
+.compliment_container {
+  width: 50%;
+  height: 100%;
+  clear: both;
+  position: fixed;
+  left: 0;
+  color: white;
+}
+
+.image_container {
+  width: 50%;
+  height: 100%;
+  clear: both;
+  position: fixed;
+  right: 0;
+  vertical-align: middle;
+}
+
+img {
+  height: 100%;
+  min-width: 650px;
+}
+
+.button {
+  bottom: 50px;
+  width: 240px;
+  height: 40px;
+  position: fixed;
+  background:rgba(255,255,255, 0.3);
+  color: white;
+  font-size: 20pt;
+  padding: 20px 10px 35px 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  left: 15%;
+  text-align: center;
+}
+
+.button:hover {
+  background: rgba(255,255,255, 0.5);
+}

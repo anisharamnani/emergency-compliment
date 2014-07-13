@@ -1,0 +1,8 @@
+.compliment_container{style: "background-color: #{@compliment.color}"}
+  %h1.emergency_compliment Emergency Compliment!
+  %h1.message
+    = @compliment.message
+  %a{href: "/"}
+    .button I still don't feel loved
+.image_container
+  %img{src: "#{@compliment.image}"}
